@@ -17,6 +17,8 @@
 		0ABB66451B3BD4790045AD8E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB66421B3BD4790045AD8E /* 1.jpg */; };
 		0ABB66461B3BD4790045AD8E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB66431B3BD4790045AD8E /* 3.jpg */; };
 		0ABB66471B3BD4790045AD8E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB66441B3BD4790045AD8E /* 2.jpg */; };
+		0ABB664A1B3BF0140045AD8E /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB66491B3BF0140045AD8E /* OtherViewController.m */; };
+		0ABB664D1B3BF02F0045AD8E /* OtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB664C1B3BF02F0045AD8E /* OtherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		0ABB66421B3BD4790045AD8E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		0ABB66431B3BD4790045AD8E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		0ABB66441B3BD4790045AD8E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		0ABB66481B3BF0140045AD8E /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		0ABB66491B3BF0140045AD8E /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		0ABB664B1B3BF02F0045AD8E /* OtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherView.h; sourceTree = "<group>"; };
+		0ABB664C1B3BF02F0045AD8E /* OtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 				0ABB661C1B3BC5FF0045AD8E /* ViewController.m */,
 				0ABB663A1B3BC9380045AD8E /* SlideViewController.h */,
 				0ABB663B1B3BC9380045AD8E /* SlideViewController.m */,
+				0ABB66481B3BF0140045AD8E /* OtherViewController.h */,
+				0ABB66491B3BF0140045AD8E /* OtherViewController.m */,
 				0ABB66211B3BC5FF0045AD8E /* Images.xcassets */,
 				0ABB66141B3BC5FF0045AD8E /* Supporting Files */,
 			);
@@ -134,6 +142,8 @@
 			children = (
 				0ABB663E1B3BC9A30045AD8E /* SlideView.h */,
 				0ABB663F1B3BC9A30045AD8E /* SlideView.m */,
+				0ABB664B1B3BF02F0045AD8E /* OtherView.h */,
+				0ABB664C1B3BF02F0045AD8E /* OtherView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABB664D1B3BF02F0045AD8E /* OtherView.m in Sources */,
 				0ABB663C1B3BC9380045AD8E /* SlideViewController.m in Sources */,
 				0ABB66401B3BC9A30045AD8E /* SlideView.m in Sources */,
 				0ABB661D1B3BC5FF0045AD8E /* ViewController.m in Sources */,
+				0ABB664A1B3BF0140045AD8E /* OtherViewController.m in Sources */,
 				0ABB661A1B3BC5FF0045AD8E /* AppDelegate.m in Sources */,
 				0ABB66171B3BC5FF0045AD8E /* main.m in Sources */,
 			);
@@ -437,6 +449,7 @@
 				0ABB66361B3BC5FF0045AD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABB66371B3BC5FF0045AD8E /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				0ABB66391B3BC5FF0045AD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

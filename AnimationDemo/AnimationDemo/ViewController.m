@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SlideViewController.h"
+#import "OtherViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
@@ -23,6 +24,7 @@
     self.view.backgroundColor = [UIColor brownColor];
     
     [self.dataList addObject:@"滑动动画"];
+    [self.dataList addObject:@"其他动画"];
     [self.view addSubview:self.tableView];
     
     
@@ -71,6 +73,10 @@
     if (indexPath.row == 0) {
         SlideViewController *svc = [[SlideViewController alloc] init];
         [self.navigationController pushViewController:svc animated:YES];
+    } else if (indexPath.row == 1) {
+        
+        OtherViewController *ovc = [[OtherViewController alloc] init];
+        [self.navigationController pushViewController:ovc animated:YES];
     }
 }
 
