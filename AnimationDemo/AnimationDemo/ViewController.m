@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "SlideViewController.h"
 #import "OtherViewController.h"
+#import "ThrowViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
@@ -25,6 +26,7 @@
     
     [self.dataList addObject:@"滑动动画"];
     [self.dataList addObject:@"其他动画"];
+    [self.dataList addObject:@"抛物线动画"];
     [self.view addSubview:self.tableView];
     
     
@@ -77,6 +79,9 @@
         
         OtherViewController *ovc = [[OtherViewController alloc] init];
         [self.navigationController pushViewController:ovc animated:YES];
+    } else if (indexPath.row == 2) {
+        ThrowViewController *tvc = [[ThrowViewController alloc] init];
+        [self.navigationController pushViewController:tvc animated:YES];
     }
 }
 
