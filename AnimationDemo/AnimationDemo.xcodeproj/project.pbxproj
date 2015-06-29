@@ -21,6 +21,10 @@
 		0ABB664D1B3BF02F0045AD8E /* OtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB664C1B3BF02F0045AD8E /* OtherView.m */; };
 		0ABB66501B3BFD550045AD8E /* ThrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB664F1B3BFD550045AD8E /* ThrowViewController.m */; };
 		0ABB66541B3BFD8E0045AD8E /* ThrowLineTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB66531B3BFD8E0045AD8E /* ThrowLineTool.m */; };
+		0AC441FB1B40E0BC00602723 /* CountMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC441FA1B40E0BC00602723 /* CountMoneyViewController.m */; };
+		0AC442011B40F9F300602723 /* MoneyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC442001B40F9F300602723 /* MoneyImageView.m */; };
+		0AC442031B410A8200602723 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AC442021B410A8200602723 /* one.jpg */; };
+		0AD816A61B3D53F20092A735 /* ViewChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD816A51B3D53F20092A735 /* ViewChangeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,13 @@
 		0ABB664F1B3BFD550045AD8E /* ThrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrowViewController.m; sourceTree = "<group>"; };
 		0ABB66521B3BFD8E0045AD8E /* ThrowLineTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrowLineTool.h; sourceTree = "<group>"; };
 		0ABB66531B3BFD8E0045AD8E /* ThrowLineTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrowLineTool.m; sourceTree = "<group>"; };
+		0AC441F91B40E0BC00602723 /* CountMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountMoneyViewController.h; sourceTree = "<group>"; };
+		0AC441FA1B40E0BC00602723 /* CountMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountMoneyViewController.m; sourceTree = "<group>"; };
+		0AC441FF1B40F9F300602723 /* MoneyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyImageView.h; sourceTree = "<group>"; };
+		0AC442001B40F9F300602723 /* MoneyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyImageView.m; sourceTree = "<group>"; };
+		0AC442021B410A8200602723 /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		0AD816A41B3D53F20092A735 /* ViewChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewChangeViewController.h; sourceTree = "<group>"; };
+		0AD816A51B3D53F20092A735 /* ViewChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewChangeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +125,10 @@
 				0ABB66491B3BF0140045AD8E /* OtherViewController.m */,
 				0ABB664E1B3BFD550045AD8E /* ThrowViewController.h */,
 				0ABB664F1B3BFD550045AD8E /* ThrowViewController.m */,
+				0AD816A41B3D53F20092A735 /* ViewChangeViewController.h */,
+				0AD816A51B3D53F20092A735 /* ViewChangeViewController.m */,
+				0AC441F91B40E0BC00602723 /* CountMoneyViewController.h */,
+				0AC441FA1B40E0BC00602723 /* CountMoneyViewController.m */,
 				0ABB66211B3BC5FF0045AD8E /* Images.xcassets */,
 				0ABB66141B3BC5FF0045AD8E /* Supporting Files */,
 			);
@@ -153,6 +168,8 @@
 				0ABB663F1B3BC9A30045AD8E /* SlideView.m */,
 				0ABB664B1B3BF02F0045AD8E /* OtherView.h */,
 				0ABB664C1B3BF02F0045AD8E /* OtherView.m */,
+				0AC441FF1B40F9F300602723 /* MoneyImageView.h */,
+				0AC442001B40F9F300602723 /* MoneyImageView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -160,6 +177,7 @@
 		0ABB66411B3BD2AA0045AD8E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0AC442021B410A8200602723 /* one.jpg */,
 				0ABB66421B3BD4790045AD8E /* 1.jpg */,
 				0ABB66441B3BD4790045AD8E /* 2.jpg */,
 				0ABB66431B3BD4790045AD8E /* 3.jpg */,
@@ -257,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABB66461B3BD4790045AD8E /* 3.jpg in Resources */,
+				0AC442031B410A8200602723 /* one.jpg in Resources */,
 				0ABB66451B3BD4790045AD8E /* 1.jpg in Resources */,
 				0ABB66471B3BD4790045AD8E /* 2.jpg in Resources */,
 				0ABB66221B3BC5FF0045AD8E /* Images.xcassets in Resources */,
@@ -280,12 +299,15 @@
 				0ABB66541B3BFD8E0045AD8E /* ThrowLineTool.m in Sources */,
 				0ABB664D1B3BF02F0045AD8E /* OtherView.m in Sources */,
 				0ABB663C1B3BC9380045AD8E /* SlideViewController.m in Sources */,
+				0AC441FB1B40E0BC00602723 /* CountMoneyViewController.m in Sources */,
+				0AC442011B40F9F300602723 /* MoneyImageView.m in Sources */,
 				0ABB66401B3BC9A30045AD8E /* SlideView.m in Sources */,
 				0ABB66501B3BFD550045AD8E /* ThrowViewController.m in Sources */,
 				0ABB661D1B3BC5FF0045AD8E /* ViewController.m in Sources */,
 				0ABB664A1B3BF0140045AD8E /* OtherViewController.m in Sources */,
 				0ABB661A1B3BC5FF0045AD8E /* AppDelegate.m in Sources */,
 				0ABB66171B3BC5FF0045AD8E /* main.m in Sources */,
+				0AD816A61B3D53F20092A735 /* ViewChangeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

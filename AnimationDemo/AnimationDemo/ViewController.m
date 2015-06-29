@@ -10,6 +10,7 @@
 #import "SlideViewController.h"
 #import "OtherViewController.h"
 #import "ThrowViewController.h"
+#import "CountMoneyViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
@@ -27,6 +28,8 @@
     [self.dataList addObject:@"滑动动画"];
     [self.dataList addObject:@"其他动画"];
     [self.dataList addObject:@"抛物线动画"];
+    [self.dataList addObject:@"标签切换"];
+    [self.dataList addObject:@"数钱动画"];
     [self.view addSubview:self.tableView];
     
     
@@ -82,6 +85,9 @@
     } else if (indexPath.row == 2) {
         ThrowViewController *tvc = [[ThrowViewController alloc] init];
         [self.navigationController pushViewController:tvc animated:YES];
+    } else if (indexPath.row == 4) {
+        CountMoneyViewController *cmv = [[CountMoneyViewController alloc] init];
+        [self.navigationController pushViewController:cmv animated:YES];
     }
 }
 
