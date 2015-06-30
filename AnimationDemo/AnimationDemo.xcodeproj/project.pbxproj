@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5C36681B425EF900D40900 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C36671B425EF900D40900 /* ChatViewController.m */; };
+		0A5C366C1B42612900D40900 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C366B1B42612900D40900 /* Person.m */; };
+		0A5C36701B42692200D40900 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C366F1B42692200D40900 /* BaseTableViewCell.m */; };
+		0A5C36741B4269AF00D40900 /* ChatWithMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C36731B4269AF00D40900 /* ChatWithMeCell.m */; };
+		0A5C36771B4269E700D40900 /* ChatWithOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C36761B4269E700D40900 /* ChatWithOtherCell.m */; };
+		0A5C367B1B426EAE00D40900 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C367A1B426EAE00D40900 /* NSString+Size.m */; };
+		0A5C367D1B42707600D40900 /* ChatWithMeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5C367C1B42707600D40900 /* ChatWithMeCell.xib */; };
+		0A5C36801B4273B200D40900 /* BaseXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C367F1B4273B200D40900 /* BaseXibView.m */; };
+		0A5C36821B42883900D40900 /* ChatWithOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5C36811B42883900D40900 /* ChatWithOtherCell.xib */; };
 		0ABB66171B3BC5FF0045AD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB66161B3BC5FF0045AD8E /* main.m */; };
 		0ABB661A1B3BC5FF0045AD8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB66191B3BC5FF0045AD8E /* AppDelegate.m */; };
 		0ABB661D1B3BC5FF0045AD8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB661C1B3BC5FF0045AD8E /* ViewController.m */; };
@@ -38,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5C36661B425EF900D40900 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		0A5C36671B425EF900D40900 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		0A5C366A1B42612900D40900 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0A5C366B1B42612900D40900 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0A5C366E1B42692200D40900 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		0A5C366F1B42692200D40900 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		0A5C36721B4269AF00D40900 /* ChatWithMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatWithMeCell.h; sourceTree = "<group>"; };
+		0A5C36731B4269AF00D40900 /* ChatWithMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatWithMeCell.m; sourceTree = "<group>"; };
+		0A5C36751B4269E700D40900 /* ChatWithOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatWithOtherCell.h; sourceTree = "<group>"; };
+		0A5C36761B4269E700D40900 /* ChatWithOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatWithOtherCell.m; sourceTree = "<group>"; };
+		0A5C36791B426EAE00D40900 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		0A5C367A1B426EAE00D40900 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		0A5C367C1B42707600D40900 /* ChatWithMeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWithMeCell.xib; sourceTree = "<group>"; };
+		0A5C367E1B4273B200D40900 /* BaseXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseXibView.h; sourceTree = "<group>"; };
+		0A5C367F1B4273B200D40900 /* BaseXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseXibView.m; sourceTree = "<group>"; };
+		0A5C36811B42883900D40900 /* ChatWithOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWithOtherCell.xib; sourceTree = "<group>"; };
 		0ABB66111B3BC5FF0045AD8E /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABB66151B3BC5FF0045AD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ABB66161B3BC5FF0045AD8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +116,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5C36691B4260F900D40900 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C366A1B42612900D40900 /* Person.h */,
+				0A5C366B1B42612900D40900 /* Person.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A5C366D1B4268FC00D40900 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C366E1B42692200D40900 /* BaseTableViewCell.h */,
+				0A5C366F1B42692200D40900 /* BaseTableViewCell.m */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		0A5C36711B42697E00D40900 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C36721B4269AF00D40900 /* ChatWithMeCell.h */,
+				0A5C36731B4269AF00D40900 /* ChatWithMeCell.m */,
+				0A5C367C1B42707600D40900 /* ChatWithMeCell.xib */,
+				0A5C36751B4269E700D40900 /* ChatWithOtherCell.h */,
+				0A5C36761B4269E700D40900 /* ChatWithOtherCell.m */,
+				0A5C36811B42883900D40900 /* ChatWithOtherCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0A5C36781B426E8A00D40900 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C36791B426EAE00D40900 /* NSString+Size.h */,
+				0A5C367A1B426EAE00D40900 /* NSString+Size.m */,
+			);
+			name = Categary;
+			sourceTree = "<group>";
+		};
 		0ABB66081B3BC5FF0045AD8E = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +177,10 @@
 		0ABB66131B3BC5FF0045AD8E /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A5C36781B426E8A00D40900 /* Categary */,
+				0A5C36711B42697E00D40900 /* Cells */,
+				0A5C366D1B4268FC00D40900 /* BaseView */,
+				0A5C36691B4260F900D40900 /* Model */,
 				0ABB66511B3BFD610045AD8E /* ThrowComm */,
 				0ABB66411B3BD2AA0045AD8E /* images */,
 				0ABB663D1B3BC9840045AD8E /* CustomViews */,
@@ -129,6 +198,8 @@
 				0AD816A51B3D53F20092A735 /* ViewChangeViewController.m */,
 				0AC441F91B40E0BC00602723 /* CountMoneyViewController.h */,
 				0AC441FA1B40E0BC00602723 /* CountMoneyViewController.m */,
+				0A5C36661B425EF900D40900 /* ChatViewController.h */,
+				0A5C36671B425EF900D40900 /* ChatViewController.m */,
 				0ABB66211B3BC5FF0045AD8E /* Images.xcassets */,
 				0ABB66141B3BC5FF0045AD8E /* Supporting Files */,
 			);
@@ -164,6 +235,8 @@
 		0ABB663D1B3BC9840045AD8E /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				0A5C367E1B4273B200D40900 /* BaseXibView.h */,
+				0A5C367F1B4273B200D40900 /* BaseXibView.m */,
 				0ABB663E1B3BC9A30045AD8E /* SlideView.h */,
 				0ABB663F1B3BC9A30045AD8E /* SlideView.m */,
 				0ABB664B1B3BF02F0045AD8E /* OtherView.h */,
@@ -275,9 +348,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABB66461B3BD4790045AD8E /* 3.jpg in Resources */,
+				0A5C367D1B42707600D40900 /* ChatWithMeCell.xib in Resources */,
 				0AC442031B410A8200602723 /* one.jpg in Resources */,
 				0ABB66451B3BD4790045AD8E /* 1.jpg in Resources */,
 				0ABB66471B3BD4790045AD8E /* 2.jpg in Resources */,
+				0A5C36821B42883900D40900 /* ChatWithOtherCell.xib in Resources */,
 				0ABB66221B3BC5FF0045AD8E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +371,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5C36681B425EF900D40900 /* ChatViewController.m in Sources */,
 				0ABB66541B3BFD8E0045AD8E /* ThrowLineTool.m in Sources */,
+				0A5C366C1B42612900D40900 /* Person.m in Sources */,
+				0A5C36771B4269E700D40900 /* ChatWithOtherCell.m in Sources */,
+				0A5C367B1B426EAE00D40900 /* NSString+Size.m in Sources */,
+				0A5C36701B42692200D40900 /* BaseTableViewCell.m in Sources */,
 				0ABB664D1B3BF02F0045AD8E /* OtherView.m in Sources */,
+				0A5C36801B4273B200D40900 /* BaseXibView.m in Sources */,
 				0ABB663C1B3BC9380045AD8E /* SlideViewController.m in Sources */,
 				0AC441FB1B40E0BC00602723 /* CountMoneyViewController.m in Sources */,
 				0AC442011B40F9F300602723 /* MoneyImageView.m in Sources */,
 				0ABB66401B3BC9A30045AD8E /* SlideView.m in Sources */,
+				0A5C36741B4269AF00D40900 /* ChatWithMeCell.m in Sources */,
 				0ABB66501B3BFD550045AD8E /* ThrowViewController.m in Sources */,
 				0ABB661D1B3BC5FF0045AD8E /* ViewController.m in Sources */,
 				0ABB664A1B3BF0140045AD8E /* OtherViewController.m in Sources */,
@@ -420,7 +502,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73a4e1b9-fa40-469a-92bb-778fccf5a08a";
+				PROVISIONING_PROFILE = "2ea3da6d-61bb-4474-90a3-4e8f56c963bc";
 			};
 			name = Debug;
 		};
@@ -434,7 +516,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73a4e1b9-fa40-469a-92bb-778fccf5a08a";
+				PROVISIONING_PROFILE = "2ea3da6d-61bb-4474-90a3-4e8f56c963bc";
 			};
 			name = Release;
 		};
